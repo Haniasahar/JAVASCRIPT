@@ -11,10 +11,19 @@
     <title>Stationary Bill</title>
 </head>
 
-<body>
+<body class="bg-purple-300">
 
-    <div class="flex flex-row gap-4 justify-around items-start mt-12 h-screen bg-purple-300 pt-12">
-        <div class="flex flex-col gap-4 justify-center items-center bg-pink-200">
+    <div style="
+        color: maroon; text-align: center; 
+        font-size: 30px; text-decoration: double underline;">
+        <h1> <b>ONLINE STATIONARY SHOP</b> </h1>
+    </div>
+
+    <div class="flex flex-row gap-8 justify-center items-start pt-12">
+
+        <div class="flex flex-col gap-6 justify-center items-center p-12 bg-pink-200">
+
+            <h2> <b><u>Stationary Cart</u></b> </h2>
 
             <div>
                 <label for="No of Registers" class="block text-sm font-medium leading-6 text-gray-900">No of
@@ -43,15 +52,16 @@
                         class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         placeholder="0" />
                 </div>
+
             </div>
 
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Calculate</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Place ORDER</button>
 
         </div>
 
-        <div class="card bg-pink-200 p-12">
-            <div class="flex flex-col gap-4">
-                <h2> <b>Stationary Rates</b> </h2>
+        <div class="card p-12">
+            <div class="flex flex-col gap-8">
+                <h2> <b><u>Stationary Rates & Bill</u></b> </h2>
                 <p>Price of a Register <b>350 Rs.</b></p>
                 <p>Price of a Book <b>280 Rs.</b></p>
                 <p>Price of a Marker <b>60 Rs.</b></p>
@@ -59,9 +69,15 @@
             </div>
         </div>
 
+        <div class="flex flex-col gap-6">
+            <img src="stationary.jpg" alt="" width="400px">
+            <img src="stationary2.jpg" alt="" width="400px">
+        </div>
+
     </div>
 
-    <script src="app.js"></script>
+    <script src="asign4.js"></script>
+
 </body>
 
 </html>
