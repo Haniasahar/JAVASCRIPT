@@ -1,4 +1,4 @@
-// QUES 1 (A1 Q 4,5,6) (A2 Q 2,4,5) (A3 Q 4) 
+// QUES 1
 alert("Welcome To Our Website");
 
 // QUES 2
