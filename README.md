@@ -60,16 +60,17 @@ explorer.exe index.html # Linux
 ## 📝 Assignment Structure
 Each folder contains:
 
-index.html (Basic HTML boilerplate)
+• index.html (Basic HTML boilerplate)
 
-index.js (JavaScript solution file)
+• index.js (JavaScript solution file)
 
-README.md (Problem statement - if applicable)
+• README.md (Problem statement - if applicable)
 
 ## 🔍 Sample Code Structure
-`index.html`
 
-html
+**html**
+
+```index.html
 <!DOCTYPE html>
 <html>
 <head>
@@ -79,10 +80,10 @@ html
   <script src="index.js"></script>
 </body>
 </html>
+```
+**javascript**
 
-`index.js` (Example from arrays assignment)
-
-```javascript
+```index.js
 // Array Methods Practice
 const numbers = [1, 2, 3];
 
