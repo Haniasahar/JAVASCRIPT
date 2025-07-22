@@ -68,9 +68,9 @@ Each folder contains:
 
 ## 🔍 Sample Code Structure
 
-**html**
+**html**  (index.html)
 
-```index.html
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,9 +81,9 @@ Each folder contains:
 </body>
 </html>
 ```
-**javascript**
+**javascript** (index.js)
 
-```index.js
+```
 // Array Methods Practice
 const numbers = [1, 2, 3];
 
@@ -98,10 +98,10 @@ const sum = numbers.reduce((total, num) => total + num, 0);
 ```
 
 ## 🛠 Recommended Setup
-Use VS Code with Live Server extension
+• Use VS Code with Live Server extension
 
-Chrome DevTools for debugging
+• Chrome DevTools for debugging
 
-ESLint for code quality (optional)
+• ESLint for code quality (optional)
 
-<div align="center"> <sub>Maintained by <a href="https://github.com/Haniasahar">Haniya Sahar</a></sub> </div> ```
+<div align="center"> <sub>Maintained by <a href="https://github.com/Haniasahar">Haniya Sahar</a></sub> </div>
